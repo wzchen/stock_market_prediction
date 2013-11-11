@@ -1,7 +1,9 @@
 ################################################################################
-# DESCRIPTION
+# Description
 ################################################################################
 This model was created for the Boston Data Week hackathon hosted at Hack/Reduce.
+Information about the competition is available at 
+https://inclass.kaggle.com/c/boston-data-festival-hackathon
 
 ################################################################################
 # Objective
@@ -11,13 +13,18 @@ the opening, closing, min, max, and volume of a stock in the previous 9 days
 (and given the opening price of a stock on day 10)
 
 ################################################################################
-# TEAM
+# Team
 ################################################################################
 Team Name: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo
 Team Members: William Chen, Sebastian Chiu, Salena Cui, Carl Gao
 
 ################################################################################
-# FILES
+# Result
+################################################################################
+We placed 1st out of 21 teams, and were able to achieve a 94.119% AUC
+
+################################################################################
+# Files
 ################################################################################
 model_tuner.py or model_tuner.ipynb
 	Find the parameters for the ridge regression and random forest regression
@@ -33,7 +40,7 @@ predictions/
 	contains both final submissions. Winning submission is in the stacker directory
 
 ################################################################################
-# OFFICIAL DATA DESCRIPTION
+# Official Data Description
 ################################################################################
 
 training.csv - time series for 94 stocks (94 rows). First number in each row is the stock ID. Then data for 500 days. Data for each day contain - day opening price, day maximum price, day minimum price, day closing price, trading volume for the day. Price data normalised to the first day opening price.
