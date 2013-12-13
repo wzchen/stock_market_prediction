@@ -1,5 +1,5 @@
 ################################################################################
-# Description
+## Description
 ################################################################################
 
 Our code and process notebook for our analysis and predictive modeling
@@ -7,20 +7,21 @@ approaches to understand directional stock movements. We have launched a website
 to showcase our work at https://sites.google.com/site/predictingstockmovement/
 
 ################################################################################
-# Objective
+## Objective
 ################################################################################
 The objective was the predict the directional movement of a stock on day 10, given
 the opening, closing, min, max, and volume of a stock in the previous 9 days 
 (and given the opening price of a stock on day 10)
 
 ################################################################################
-# Team
+## Team
 ################################################################################
 Team Name: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo
-Team Members: William Chen, Sebastian Chiu, Salena Cui, Carl Gao
+
+Team Members: William Chen '14, Sebastian Chiu '14, Salena Cui '15, Carl Gao '15
 
 ################################################################################
-# Result
+## Result
 ################################################################################
 We submitted our Ridge-Random Forest model to the Boston Data Week hackathon
 hosted at Hack/Reduce. Information about the competition is available at 
@@ -30,7 +31,7 @@ We placed 1st out of 21 teams, and were able to achieve a 94.119% AUC on the
 private leaderboard
 
 ################################################################################
-# Files
+## Files
 ################################################################################
 process.ipynb notebook
 	Notebook describing our work and our main contributions
@@ -49,7 +50,7 @@ predictions/
 	contains both final submissions. Winning submission is in the stacker directory
 
 ################################################################################
-# Official Data Description
+## Official Data Description
 ################################################################################
 
 training.csv - time series for 94 stocks (94 rows). First number in each row is the stock ID. Then data for 500 days. Data for each day contain - day opening price, day maximum price, day minimum price, day closing price, trading volume for the day. Price data normalised to the first day opening price.
