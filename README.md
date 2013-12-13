@@ -32,7 +32,7 @@ private leaderboard
 ################################################################################
 # Files
 ################################################################################
-Process notebook
+process.ipynb notebook
 	Notebook describing our work and our main contributions
 
 model_tuner.py or model_tuner.ipynb
